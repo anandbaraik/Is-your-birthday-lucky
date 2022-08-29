@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Is Your Birthdate Lucky?</title>
     <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
     <div class="container">
-        <h1>
+        <h1 class="header">
             Is your Birthday Lucky? 🪄
         </h1>
+        <p class="description">
+            Enter your date of birth & lucky number to check if your birth date is lucky. its a fun game app.
+        </p>
         <div class="group">
             <label for="dob">
-                Date of Birth
+                Date of Birth 
+                <span class="required">(Required)</span>
             </label>
             <input type="date" id="dob">
         </div>
         <div class="group">
             <label for="luckyNum">
                 Lucky Number
+                <span class="required">(Required)</span>
             </label>
             <input type="number" id="luckyNum">
         </div>
@@ -33,7 +41,9 @@
         <div class="container">
             <div class="heading">
                 <img src="data:image/png;base64,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">
-                Your data is safe, we dont store your data such as dob & lucky number.
+                <span>
+                    Your data is safe. we dont store your data such as dob & lucky number.
+                </span>
             </div>
             <ul class="list-non-bullet p-0">
                 <li class="list-item">
