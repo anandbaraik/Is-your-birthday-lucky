@@ -4,11 +4,11 @@
     max-width: 600px;
 }
 body{
-    background-color: #ecfccb;
+    background-color: #e2e8f0;
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    background-color: #a7f3d0;
+    background-color: #818cf8;
     padding: 2rem 4rem;
 }
 .container > h1.header{
@@ -76,4 +76,7 @@ input{
 .footer > span{
     font-size: 1rem;
     font-weight: 500;
+}
+.hashnode{
+    width: 2.4rem;
 }
