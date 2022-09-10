@@ -1,19 +1,16 @@
-
 # Is-your-birthday-lucky
+
 A website which can help you to check whether your birthday is lucky or not.
-
-
 
 # live
 
 [lucky-birthday](https://is-your-birthday-lucky-anand.netlify.app/)
 
-
 ## Tech
+
 - Html
 - Css
 - Js
-
 
 ## Run Locally
 
@@ -30,8 +27,11 @@ Go to the project directory
 ```
 
 Run
+
 ```bash
   - install live extension & view
 ```
+
 ## Screenshot
-![Is-your-birthday-lucky](https://user-images.githubusercontent.com/31516195/188324016-19b97d4b-5aab-46d5-b9c4-51da4d510f45.png)
+
+![Is-your-birthday-lucky](https://user-images.githubusercontent.com/31516195/189495680-d7ffa375-8f33-440b-8543-20d247d8da26.png)
