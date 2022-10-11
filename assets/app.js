@@ -19,7 +19,7 @@ function checkIfDobIsLucky() {
 
 function calculateDobSum(dob) {
 
-    let dobDigit = dob.replaceAll("-", "");
+    let dobDigit = dob.replaceAll("-", ""); //replces all ocurrance
     let dobDigitSum = 0;
 
     for (let digit of dobDigit) {
